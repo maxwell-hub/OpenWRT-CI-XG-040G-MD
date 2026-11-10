@@ -32,7 +32,7 @@ jobs:
     name: 检查上游
     runs-on: ubuntu-latest
     env:
-      WRT_SOURCE: bingoguo93/immortalwrt
+      WRT_SOURCE: maxwell-hub/immortalwrt
       WRT_BRANCH: "6.18"
       WRT_REPO: https://github.com/maxwell-hub/immortalwrt
       # 文件名不能带 "/"，这里把 SOURCE 里的 "/" 替换掉
