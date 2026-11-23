@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       WRT_SOURCE: maxwell-hub/immortalwrt
-      WRT_BRANCH: "6.18"
+      WRT_BRANCH: "master"
       WRT_REPO: https://github.com/maxwell-hub/immortalwrt
       # 文件名不能带 "/"，这里把 SOURCE 里的 "/" 替换掉
       SHA_FILE: SHA/bingoguo93-immortalwrt.6.18-sha
